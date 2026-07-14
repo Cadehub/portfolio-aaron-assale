@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assale Aaron Olivier | Architecte & Créateur</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome pour les icônes professionnelles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Bouton Retour en haut -->
+    <button id="back-to-top" aria-label="Retour au sommet"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://res.cloudinary.com/dqywhkfgu/image/upload/v1784043029/IMG-20260714-WA0029_kks2x0.jpg" alt="Logo Archi Design" class="nav-logo">
+        </div>
+        
+        <div class="nav-controls">
+            <ul class="nav-links">
+                <li><a href="#accueil"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="#portfolio"><i class="fas fa-palette"></i> Créations</a></li>
+                <li><a href="#aumonerie"><i class="fas fa-hands-holding-heart"></i> Aumônerie</a></li>
+                <li><a href="#poulet"><i class="fas fa-drumstick-bite"></i> Poulet Olivier</a></li>
+            </ul>
+            
+            <button id="theme-toggle" aria-label="Changer le thème">
+                <i class="fas fa-moon dark-icon"></i>
+                <i class="fas fa-sun light-icon"></i>
+            </button>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="accueil" class="hero section-padding">
+        <div class="hero-content fade-in">
+            <h1>Assale Aaron Olivier</h1>
+            <h2>Designer d'intérieur, Designer floral, Aumônier certifié de crises, Chapelier</h2>
+            <p>Découvrez un univers premium où la conception spatiale fusionne avec le design floral, la chapellerie d'exception et un engagement humain profond.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn-primary"><i class="fas fa-eye"></i> Explorer mon univers</a>
+                <a href="realisations.html" class="btn-secondary"><i class="fas fa-th-large"></i> Toutes mes réalisations</a>
+            </div>
+        </div>
+        <div class="hero-image fade-in">
+            <div class="blob-photo" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784045930/IMG-20260714-WA0059_edit_819457363130839_kp6xha.jpg');"></div>
+        </div>
+    </header>
+
+    <!-- Section Portfolio avec Carousel -->
+    <section id="portfolio" class="section-padding bg-alt">
+        <div class="section-header text-center fade-in">
+            <h2>Mes Univers Créatifs</h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="carousel-container fade-in">
+            <button class="carousel-btn prev-btn" aria-label="Précédent"><i class="fas fa-chevron-left"></i></button>
+            
+            <div class="carousel-track" id="portfolio-track">
+                <!-- Slide 1 : Archi -->
+                <div class="carousel-slide">
+                    <div class="card">
+                        <div class="card-img gallery-trigger" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784045930/IMG-20260714-WA0086_osuuc5.jpg');"></div>
+                        <div class="card-content">
+                            <h3>Archi-Design</h3>
+                            <p>Aménagement d'intérieur de prestige.</p>
+                            <a href="https://wa.me/237699040513?text=Bonjour%20Olivier,%20je%20vous%20contacte%20pour%20un%20projet%20d'aménagement." target="_blank" class="btn-cta"><i class="fab fa-whatsapp"></i> Devis Aménagement</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 : Floral -->
+                <div class="carousel-slide">
+                    <div class="card">
+                        <div class="card-img gallery-trigger" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784042695/IMG-20260714-WA0054_vhop6j.jpg');"></div>
+                        <div class="card-content">
+                            <h3>Design Floral</h3>
+                            <p>Scénographie et fleurs monumentales.</p>
+                            <a href="https://wa.me/237699040513?text=Bonjour%20Olivier,%20j'aimerais%20une%20décoration%20florale." target="_blank" class="btn-cta"><i class="fab fa-whatsapp"></i> Commander</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 : Ballons -->
+                <div class="carousel-slide">
+                    <div class="card">
+                        <div class="card-img gallery-trigger" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784042697/IMG-20260714-WA0056_tiqus8.jpg');"></div>
+                        <div class="card-content">
+                            <h3>Scénographie Événementielle</h3>
+                            <p>Arches et structures sur mesure.</p>
+                            <a href="https://wa.me/237699040513?text=Bonjour%20Olivier,%20je%20voudrais%20une%20décoration%20pour%20mon%20événement." target="_blank" class="btn-cta"><i class="fab fa-whatsapp"></i> Réserver</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 4 : Chapellerie -->
+                <div class="carousel-slide">
+                    <div class="card">
+                        <div class="card-img gallery-trigger" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784042700/IMG-20260714-WA0049_d8ur24.jpg');"></div>
+                        <div class="card-content">
+                            <h3>Chapellerie de Luxe</h3>
+                            <p>Bibis, fascinators et capelines artisanales.</p>
+                            <a href="https://wa.me/237699040513?text=Bonjour%20Olivier,%20je%20suis%20intéressé(e)%20par%20vos%20chapeaux." target="_blank" class="btn-cta"><i class="fab fa-whatsapp"></i> Catalogue Chapeaux</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-btn next-btn" aria-label="Suivant"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+        <div class="center-btn mt-4 fade-in">
+            <a href="realisations.html" class="btn-primary"><i class="fas fa-images"></i> Voir toute la galerie de projets</a>
+        </div>
+    </section>
+
+    <!-- Section Aumônerie -->
+    <section id="aumonerie" class="section-padding">
+        <div class="container text-center fade-in">
+            <h2>Aumônerie de Crise (BCC)</h2>
+            <div class="divider"></div>
+            <p class="highlight-text"><i class="fas fa-award"></i> Board Certified Crisis Response Chaplain</p>
+            <p>Accompagnement des victimes, soutien émotionnel et psychologique des familles, intervention auprès des forces de l'ordre. Une écoute active et résiliente au cœur des moments difficiles.</p>
+            <a href="https://wa.me/237699040513?text=Bonjour%20Olivier,%20je%20vous%20contacte%20pour%20un%20accompagnement." target="_blank" class="btn-primary mt-4"><i class="fab fa-whatsapp"></i> Demander une assistance</a>
+        </div>
+    </section>
+
+    <!-- Section Vendeur de Poulet avec Carousel -->
+    <section id="poulet" class="section-padding bg-poulet">
+        <div class="overlay"></div>
+        <div class="container position-relative fade-in">
+            <div class="section-header text-center text-white">
+                <h2>Poulet Olivier</h2>
+                <div class="divider"></div>
+                <div class="price-tag">À partir de 3800 FCFA</div>
+            </div>
+
+            <div class="carousel-container mt-4">
+                <button class="carousel-btn prev-btn-p" aria-label="Précédent"><i class="fas fa-chevron-left"></i></button>
+                
+                <div class="carousel-track" id="poulet-track">
+                    <div class="carousel-slide"><div class="poulet-img gallery-trigger" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784042691/IMG-20260714-WA0061_b3h6qc.jpg');"></div></div>
+                    <div class="carousel-slide"><div class="poulet-img gallery-trigger" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784042691/IMG-20260714-WA0062_fkqxef.jpg');"></div></div>
+                    <div class="carousel-slide"><div class="poulet-img gallery-trigger" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784042691/IMG-20260714-WA0069_e4iaca.jpg');"></div></div>
+                    <div class="carousel-slide"><div class="poulet-img gallery-trigger" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784042690/IMG-20260714-WA0066_g7pz2u.jpg');"></div></div>
+                    <div class="carousel-slide"><div class="poulet-img gallery-trigger" style="background-image: url('https://res.cloudinary.com/dqywhkfgu/image/upload/v1784042690/IMG-20260714-WA0067_wlfrox.jpg');"></div></div>
+                </div>
+                
+                <button class="carousel-btn next-btn-p" aria-label="Suivant"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            <div class="poulet-text text-white text-center mt-4">
+                <p>Poulets de chair tendres et poulets réformés locaux de première qualité. Vente en gros, détails, sur pied ou nettoyés. Livraison disponible.</p>
+                <a href="https://wa.me/237699040513?text=Bonjour%20Olivier,%20j'aimerais%20passer%20une%20commande%20de%20poulets." target="_blank" class="btn-whatsapp-large mt-4"><i class="fab fa-whatsapp"></i> Commander mes poulets maintenant</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="https://res.cloudinary.com/dqywhkfgu/image/upload/v1784043029/IMG-20260714-WA0029_kks2x0.jpg" alt="Archi Design">
+            </div>
+            <div class="footer-info">
+                <p><i class="fas fa-envelope"></i> assaleaaron@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i> +237 699 040 513</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Assale Aaron Olivier. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox (Plein écran) -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <button class="lightbox-btn prev-btn-lb" aria-label="Image précédente"><i class="fas fa-chevron-left"></i></button>
+        <img class="lightbox-content" id="lightbox-img" alt="Image agrandie">
+        <button class="lightbox-btn next-btn-lb" aria-label="Image suivante"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
